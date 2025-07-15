@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI';
+    line-height: 1.6;
+    background-color: #fdfdfd;
+    color: #333;
+}
+header{
+    background-color: #748DAE;
+    color: #fdfdfdfd;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.hero{
+    background-color:#9ECAD6;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h2 {
+    font-size: 2.5rem;
+}
+.hero button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #748DAE;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.types, .about, .contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+.fabric-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: warp;
+    gap: 20px;
+    margin-top: 20px;
+}
+.fabric-card {
+    background-color: #F5CBCB;
+    border: 1px solid #748DAE;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.fabric-card:hover {
+    transform: scale(1.05);
+}
+.contact button {
+    background-color: #748DAE;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: #FFEAEA;
+    font-size: 1rem;
+    
+}
